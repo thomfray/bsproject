@@ -1,0 +1,17 @@
+.bgimage {
+	background-image: url('../images/Blanket.jpg');
+	background-position: center top;
+	background-size: cover;
+	height: 200px;
+}
+
+h1 {
+	color: blue;
+}
+
+@media (max-width: 767px) {
+	.img-responsive {
+		max-width: 300px;
+		min-width: 200px;
+	}
+}
